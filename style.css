@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+}
+nav{
+    height: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav #first{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+nav #first h3{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 3px 8px;
+    font-size: 14px;
+    font-weight: 100;
+}
+nav #second h2{
+    font-weight: 100;
+    font-size: 17px;
+}
+nav #third{
+    display: flex;
+    justify-content: space-between;
+}
+nav #third h3{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 3px 8px;
+    font-size: 14px;
+    font-weight: 100;
+}
+nav #third h3:nth-of-type(2){
+    background-color: red;
+    color: white;
+}
+#main>h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 90px;
+    /* background-color: aqua; */
+    width: 100%;
+   text-align: center;
+   text-transform: uppercase;
+}
+ img{
+    height: 300px;
+    width: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    transform: translate(-50%,-50%)rotate(-10deg);
+}
+#img2{
+    transform: translate(-50%,-50%)rotate(-15deg);
+}
+#img3{
+    transform: translate(-50%,-50%)rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%,-50%)rotate(-25deg);
+}
+#main h4{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-weight: 100;
+}
+#about{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-weight: 100;
+    text-align: center;
+    
+}
+#icon i{
+    font-size: 20px;
+    margin-left: 15px;
+}
+#txt h3{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 8px;
+}
+#circle{
+    width: 100px;
+    height: 50px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 1px black solid;
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+}
+#circle i{
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 32px;
+}
